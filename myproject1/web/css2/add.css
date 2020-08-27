@@ -1,0 +1,68 @@
+/* 
+    Document   : add
+    Created on : May 25, 2012, 4:33:08 PM
+    Author     : anas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.valid1
+{color:red;visibility:hidden; 
+}
+
+#valid
+{
+    margin:20px ;
+    color:red;
+}
+#reg {
+	margin:20px 20px;
+}
+
+#reg input {
+	margin:2px;
+	border:#5a065a solid 2px;
+	border-radius:4px;
+	color:#000;
+	background:#c4a9a9;
+	padding:3px;
+	box-shadow:inset 0px 0px 4px 2px #FFFFFF;
+}
+#reg input:focus {
+	border:#FFF solid 1px;
+	color:#4c4c4c;
+	background:#FFF;
+	box-shadow:inset 1px 1px 4px 2px #4c4c4c;
+}
+
+#reg select  {
+	margin:2px;
+	border:#4c4c4c solid 1px;
+	border-radius:4px;
+	color:#FFF;
+	background:#4c4c4c;
+	padding:3px;
+	box-shadow:inset 0px 0px 4px 2px #FFFFFF;
+}
+
+#reg select:focus  {
+	border:#FFF solid 1px;
+	color:#4c4c4c;
+	background:#FFF;
+	box-shadow:inset 0px 0px 4px 2px #4c4c4c;
+}
+
+#reg input[type="submit"]:hover{
+	color:#4c4c4c;
+	background-color:#FFF;
+	box-shadow:inset 1px 1px 4px 2px #4c4c4c ;
+	
+}
+
+#reg input[type="button"]:hover{
+	color:#4c4c4c;
+	background-color:#FFF;
+	box-shadow:inset 1px 1px 4px 2px #4c4c4c ;
+	
+}
+
+

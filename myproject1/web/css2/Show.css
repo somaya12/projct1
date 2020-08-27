@@ -1,0 +1,84 @@
+/* 
+    Document   : Show
+    Created on : May 25, 2012, 4:32:30 PM
+    Author     : anas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+#All_rec_s {
+	
+	
+	font-size: 20px;
+        padding: 30px;
+        text-align: center;
+        color: white;
+        
+       
+}
+#All_rec_s  ul{
+	list-style: none;
+	width:1050px;
+	
+	margin:0px auto 15px auto;
+}
+
+
+#All_rec_s  li{
+	margin:10px auto ;
+}
+
+#All_rec_s  li:first-child{
+	margin:0px auto 10px auto ;
+}
+
+ table {
+	color:#FFFFFF; 
+	margin:10px auto;
+	height:50px;
+        width: 100%
+            
+	
+}
+
+
+
+td {
+	width:250px;
+}
+
+.rec_s_f{
+	border-radius:0px 0px 10px 10px;
+	background:#4c4c4c;
+	box-shadow:inset 0px 0px 10px 2px rgba(255,255,255,0.4);
+        margin: 50;
+        text-align: center;
+}
+
+.rec_s {
+	border-radius:10px;
+	background:#4c4c4c;
+	box-shadow:inset 0px 0px 10px 2px rgba(255,255,255,0.4);
+        margin: 50;
+        text-align: center;
+}
+
+
+#All_rec_s input[type="submit"] {
+	margin:2px;
+	border:#4c4c4c solid 1px;
+	border-radius:4px;
+	color:#FFF;
+	padding:3px;
+	background:#4c4c4c;
+	box-shadow:inset 0px 0px 7px 2px #CCCCCC;
+}
+
+#All_rec_s input[type="submit"]:hover{
+	color:#4c4c4c;
+	background-color:#FFF;
+        
+	box-shadow:inset 0px 0px 7px 2px #4c4c4c ;
+}

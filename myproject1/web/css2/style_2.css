@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#e0bbbb;
+}
+
+#container {
+	width:1025px;
+	margin: 75px auto 0px auto;
+	
+	position:relative;
+}
+.clear{
+clear: both;
+}
+#header {
+	position:absolute;
+	
+	width:1025px;
+	height:252px;
+	z-index:1;
+}
+
+#header img {
+	float: left;;
+        margin-left: -110px;
+	margin-top:-50px;
+}
+
+#header h1 {
+	color:#5a065a;
+	text-align:left;
+	margin:30px 200px 00px 00px;
+	font-size:45px;
+	
+}
+
+#header p {
+	color:#5a065a;
+	text-align:left;
+	margin:50px 225px auto auto;
+	font-size:30px;
+}
+
+#warpper{
+	width:965px;
+	margin-left:10px;
+	background:rgb(145, 64, 64);
+	position: absolute;
+	right: 0;
+}
+
+#slider {
+	
+	margin:1000px auto 100px auto;
+	height:1000px;
+	width:2000px;
+	border:2px solid #4c4c4c;
+	border-radius:10px;
+	overflow:hidden;	
+	-webkit-box-shadow:0px 2px 7px 0px #4C4C4C;
+	-moz-box-shadow:0px 2px 7px 0px #4C4C4C;
+	box-shadow:0px 2px 7px 0px #4C4C4C;
+}
+
+#contant {
+	position:relative;
+	margin:50px auto 50px auto;
+	width:1100px ;
+	background:#CCCCCC;
+	border:2px solid #854343;
+	border-radius:10px;
+	color:#5a065a;
+	-webkit-box-shadow:0px 2px 7px 0px #4C4C4C;
+	-moz-box-shadow:0px 2px 7px 0px #4C4C4C;
+	box-shadow:0px 2px 7px 0px #4C4C4C;	
+}
+#nav{
+	
+	margin:5px 0 5px 0;
+	font-size: 30px; 
+	text-align:center
+	
+}
+
+#nav a{
+	text-decoration:none;
+	color: #5a065a;
+}
+#nav a:hover{
+	color: #4c4c4c;
+	text-shadow:-2px 2px 7px #4c4c4c;
+}
+#contant p{
+	margin:15px 20px 10px 20px;
+	
+}
+
+#footer {
+	
+	width:965px;
+	height:75px;
+	margin:50px 0px 0px 0px;
+	border-top:2px #4c4c4c  solid ;
+	background:#CCCCCC;
+	color:#0000;
+}
+
+#footerIn {
+	width:965px;
+	margin:auto 10px;
+	border-top:2px solid #4c4c4c;
+}
+#footerIn ul{
+	list-style:none;
+	float:right;
+	width:250px;
+	margin-top:-50px;
+}
+#footerIn img , #footerIn li{
+	float:right;
+	display:block;
+	padding-right:10px;
+}
+#footerIn img:first-child{
+	padding-bottom:7px;
+}
+#footerIn p{
+	width:250px;
+	font-size:14px;
+	color:#000;
+	padding-top:5px;
+}
+#footerIn p:first-child{
+	padding-top:20px;
+}
+
+#footerIn a{
+	
+	margin-right:30px;
+	font-size:14px;
+	color:#0000;
+	padding-top:5px;
+	text-decoration:none;
+}
+
+#footerIn a:hover{
+	color: #4c4c4c;
+	text-shadow:-2px 2px 7px #4c4c4c;
+}

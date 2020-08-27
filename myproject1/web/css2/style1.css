@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#e0bbbb;
+}
+
+#container {
+	width:1025px;
+	margin: 75px auto 0px auto;
+	
+	position:relative;
+}
+.clear{
+clear: both;
+}
+#header {
+	position:absolute;
+	
+	width:1025px;
+	height:200px;
+	z-index:1;
+}
+
+#header img {
+	float: left;;
+        margin-left: -100px;
+	margin-top:-10px;
+}
+
+
+#header h1 {
+	color:#5a065a;
+	text-align:left;
+	margin:50px 225px auto auto;
+	font-size:45px;
+	
+}
+
+#header p {
+	color:#5a065a;
+	text-align:left;
+	margin:10px 100px auto auto;
+	font-size:30px;
+}
+
+
+#header1 img {
+	float: left;
+        margin-right:-150px; 
+	margin-top:-50px;
+}
+#header2 img {
+	float: left;
+          margin-left:320px;
+	margin-top:-50px;
+       
+}
+#header3 img {
+	float: right;
+        margin-left:-150px; 
+	margin-top:-50px;;
+}
+
+
+#header1 h1 {
+	color:#5a065a;
+	text-align:left;
+	margin:50px 225px auto auto;
+	font-size:45px;
+	
+}
+
+#header1 p {
+	color:#5a065a;
+	text-align:left;
+	margin:50px 225px auto auto;
+	font-size:30px;
+}
+#header2 h1 {
+	color:#5a065a;
+	text-align:left;
+	margin:50px 225px auto auto;
+	font-size:45px;
+	
+}
+
+#header2 p {
+	color:#5a065a;
+	text-align:left;
+	margin:50px 225px auto auto;
+	font-size:30px;
+}
+#header3 h1 {
+	color:#5a065a;
+	text-align:left;
+	margin:50px 225px auto auto;
+	font-size:45px;
+	
+}
+
+#header3 p {
+	color:#5a065a;
+	text-align:left;
+	margin:50px 225px auto auto;
+	font-size:30px;
+}
+
+#warpper{
+	width:965px;
+	margin-left:10px;
+	background:rgb(145, 64, 64);
+	position: absolute;
+	right: 0;
+}
+
+#slider {
+	float: left;
+        margin-left:500px;
+        margin-top: -50px;
+	
+	height:500px;
+	width:600px;
+	border:2px solid #4c4c4c;
+	border-radius:10px;
+	overflow:hidden;	
+	-webkit-box-shadow:0px 2px 7px 0px #4C4C4C;
+	-moz-box-shadow:0px 2px 7px 0px #4C4C4C;
+	box-shadow:0px 2px 7px 0px #4C4C4C;
+}
+
+#contant {
+	position:relative;
+	margin:50px auto 50px auto;
+	width:1000px ;
+	background:#CCCCCC;
+	border:2px solid #854343;
+	border-radius:10px;
+	color:#5a065a;
+	-webkit-box-shadow:0px 2px 7px 0px #4C4C4C;
+	-moz-box-shadow:0px 2px 7px 0px #4C4C4C;
+	box-shadow:0px 2px 7px 0px #4C4C4C;	
+}
+#nav{
+	
+	margin:5px 0 5px 0;
+	font-size: 30px; 
+	text-align:center
+	
+}
+
+#nav a{
+	text-decoration:none;
+	color: #5a065a;
+}
+#nav a:hover{
+	color: #4c4c4c;
+	text-shadow:-2px 2px 7px #4c4c4c;
+}
+#contant p{
+	margin:15px 20px 10px 20px;
+	
+}
+
+#footer {
+	
+	width:1500px;
+	height:75px;
+	margin:50px 0px 0px 0px;
+	border-top:2px #4c4c4c  solid ;
+	background:#CCCCCC;
+	color:#0000;
+}
+
+#footerIn {
+	width:965px;
+	margin:auto 10px;
+	border-top:2px solid #4c4c4c;
+}
+#footerIn ul{
+	list-style:none;
+	float:right;
+	width:250px;
+	margin-top:-50px;
+}
+#footerIn img , #footerIn li{
+	float:right;
+	display:block;
+	padding-right:10px;
+}
+#footerIn img:first-child{
+	padding-bottom:7px;
+}
+#footerIn p{
+	width:250px;
+	font-size:14px;
+	color:#000;
+	padding-top:5px;
+}
+#footerIn p:first-child{
+	padding-top:20px;
+}
+
+#footerIn a{
+	
+	margin-right:30px;
+	font-size:14px;
+	color:#0000;
+	padding-top:5px;
+	text-decoration:none;
+}
+
+#footerIn a:hover{
+	color: #4c4c4c;
+	text-shadow:-2px 2px 7px #4c4c4c;
+}
+
+.dropbtn {
+  background-color: #5a065a;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: left;
+    margin-right: 100px;
+   margin-top:200px;
+}
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+  float: left;
+    margin-right:120px;
+   margin-top:200px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #5a065a ;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #854343;}
+
+.dropdown1-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown1-content a {
+  color: #5a065a ;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown1-content a:hover {background-color: #ddd;}
+
+.dropdown1:hover .dropdown1-content {display: block;}
+
+.dropdown1:hover .dropbtn {background-color: #854343;}
+
+
